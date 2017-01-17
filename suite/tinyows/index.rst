@@ -22,4 +22,3 @@ vlastním formátem konfigurace (XML).
     instalace
     konfigurace
     testovani
-    
