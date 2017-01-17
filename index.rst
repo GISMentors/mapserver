@@ -1,10 +1,37 @@
-.. figure:: images/mapserver-logo.png
-   :width: 130px
-   :align: left
+.. only:: latex
 
-**MapServer** je
-multiplatformní serverový mapový server určení pro publikaci prostorových dat
-prostřednictvím webových služeb OGC a prostřednictvím proprietárního rozhraní.
+   #####
+   Obsah
+   #####
+
+.. only:: html
+
+   `GISMentors <http://gismentors.cz>`_ | Školení `GRASS GIS
+   <http://gismentors.cz/skoleni/grass-gis>`_ | `QGIS
+   <http://gismentors.cz/skoleni/qgis>`_ | `PostGIS
+   <http://gismentors.cz/skoleni/postgis>`_ | `GeoPython
+   <http://gismentors.cz/skoleni/geopython>`_
+   
+   ****
+   Úvod
+   ****
+
+.. only:: html
+
+   .. figure:: images/mapserver-logo.png
+      :width: 130px
+      :align: left
+
+**MapServer** je multiplatformní serverový mapový server určení pro
+publikaci prostorových dat prostřednictvím webových služeb OGC a
+prostřednictvím proprietárního rozhraní.
+
+.. only:: latex
+
+   .. figure:: images/mapserver-logo.png
+      :scale-latex: 80
+
+      Logo projektu MapServer
 
 MapServer (http://mapserver.org) je jeden z nejdéle vyvíjených programů pro
 tento účel, původně jako projekt NASA. V současnosti je MapServer vyvíjen
@@ -22,8 +49,14 @@ jazyků (Perl, Python, PHP, Java, ...).
                předpokládáme nainstalovaný webový server (`Apache
                <http://httpd.apache.org>`_) a textový editor.
  
-Obsah
-=====
+.. warning:: :red:`Pracovní značně neúplná verze materiálů, která je
+             aktuálně ve vývoji!`
+
+.. only:: html
+             
+   #####   
+   Obsah
+   #####
 
 Základy práce s programem MapServer
 -----------------------------------
@@ -54,41 +87,42 @@ MapScript
 
     mapscript/index
 
+*******
+Dodatky
+*******
+
 Související materiály
 =====================
 
 .. todo:: Zatím prázdné
 
-Technická podpora
-=================
+O dokumentu
+===========
 
-* *(česky)* Mailing list `FreeGeoCZ
-  <http://freegis.fsv.cvut.cz/gwiki/Emailov%C3%A1_konference_FreeGeoCZ>`_ (obecně Open Source GIS, nikoliv pouze GRASS)
- * `registrace
-   <http://mailman.fsv.cvut.cz/mailman/listinfo/freegeocz>`_
- * `archiv <http://mailman.fsv.cvut.cz/pipermail/freegeocz/>`_
-* *(anglicky)* Mezinárodní mailing list projektu MapServer
- * `registrace <http://lists.osgeo.org/mailman/listinfo/mapserver-users>`_
- * `archiv <http://lists.osgeo.org/pipermail/mapserver-users/>`_
-   
-.. *Komerční podpora v ČR*
-           
-.. * OpenGeoLabs s.r.o. ``podpora@opengeolabs.cz``
+Text dokumentu je licencován pod `Creative Commons Attribution-ShareAlike 4.0 International License <http://creativecommons.org/licenses/by-sa/4.0/>`_.
 
-Užitečné odkazy
-===============
+.. figure:: images/cc-by-sa.png 
+   :width: 130px
+   :scale-latex: 120
+              
+*Verze textu dokumentu:* |release| (sestaveno |today|)
 
-* http://freegis.fsv.cvut.cz
-* http://epsg.io
+Autoři
+------
 
-Licence
-=======
+Za `GISMentors <http://www.gismentors.cz/>`_:
 
-.. table::
-   :class: noborder
+* `Jáchym Čepický <http://www.gismentors.cz/mentors/cepicky>`_ ``<jachym.cepicky opengeolabs.cz>``
 
-   +----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | .. image:: _static/cc-by-sa.png  | Text školení je licencován pod `Creative Commons Attribution-ShareAlike 4.0 International License <http://creativecommons.org/licenses/by-sa/4.0/>`_. |
-   |           :width: 125px          |                                                                                                                                                       |
-   +----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+Text dokumentu
+--------------
 
+.. only:: latex
+
+   Online HTML verze textu školení je dostupná na adrese:
+
+   * http://training.gismentors.eu/mapserver-zacatecnik/
+
+Zdrojové texty školení jsou dostupné na adrese:
+
+* https://github.com/GISMentors/mapserver-zacatecnik
